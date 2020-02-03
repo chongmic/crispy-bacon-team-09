@@ -2,10 +2,10 @@
 Crispy Bacon
 
 ## Contact Information
-Moses Chong (Software Engineer): chongmic@uw.edu
-Kevin Chiu (UX/UI Designer): kchiu17@uw.edu
-Sean Kim (Project Manager): seaneasy@uw.edu
-Anthony Chiang (Software Engineer): achiang2@uw.edu
+Moses Chong (Software Engineer): chongmic@uw.edu  
+Kevin Chiu (UX/UI Designer): kchiu17@uw.edu  
+Sean Kim (Project Manager): seaneasy@uw.edu  
+Anthony Chiang (Software Engineer): achiang2@uw.edu  
 
 # JoyFill
 Available here: https://github.com/chongmic/crispy-bacon-team-09
