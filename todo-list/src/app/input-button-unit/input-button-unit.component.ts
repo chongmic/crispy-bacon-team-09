@@ -10,7 +10,7 @@ export class InputButtonUnitComponent implements OnInit {
   // tslint:disable-next-line: no-output-native
   @Output() submit: EventEmitter<string> = new EventEmitter();
 
-  title = 'Hello World';
+  title = 'Enter your Todo here...';
   constructor() {  }
 
   ngOnInit(): void {
