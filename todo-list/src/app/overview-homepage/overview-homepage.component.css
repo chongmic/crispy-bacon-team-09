@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,300i,400,400i,500,600,700,800,900&display=swap');
+
+
+:host {
+  background-color: #201F6C;
+  display: block;
+  min-height: 100vh;
+
+  font-family: proxima-nova, sans-serif;
+}
+
+/*************************************************************
+
+                          TOOLBAR
+
+**************************************************************/
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 2% 0%;
+}
+
+.logo-image {
+  margin-left: 135px;
+  width: 225px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.toolbar button {
+  border-radius: 25px;
+  border: 0px;
+  padding: 14px 37px 14px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background-color: #292c2f;
+  color: #ffffff;
+}
+
+#login {
+  margin-right: 10px;
+}
+
+button:focus {
+  outline:0;
+}
+
+
+
+/*************************************************************
+
+                          CONTENT
+
+**************************************************************/
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  padding: 3%;
+}
+
+.description {
+  float: left;
+  margin-left: 7%;
+  margin-top: 3%;
+  width: 93%;
+  color: #ffffff;
+}
+
+.description p {
+  font-weight: 530;
+  width: 90%;
+  font-size: 22px;
+}
+
+.sub-description {
+  /*margin-left: 4%;*/
+}
+
+.slogan {
+  font-size: 2.6rem;
+}
+
+.find-your-joy-button {
+  margin-left: -5%;
+  margin-top: -3%;
+  width: 50%;
+}
+
+.find-your-joy-button:hover {
+  cursor: pointer;
+}
+
+.cover-img {
+  width: 100%;
+}
+
+.image-section {
+  margin-right: 5%;
+  margin-top: -2%;
+}
+
+
+
+/*************************************************************
+
+                          KEY-FEATURES
+
+**************************************************************/
+.key-features {
+
+}
+
+/*************************************************************
+
+                          FOOTER
+
+**************************************************************/
+footer {
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: #292c2f;
+  color: #ffffff;
+
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  text-align: center;
+}
+
+.team-info {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+
+.team-members {
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright {
+  padding-top: 10px;
+}

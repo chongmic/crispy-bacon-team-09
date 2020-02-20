@@ -1,17 +1,14 @@
+body {
+  margin: 0px;
+  font-family: 'proxima-nova', sans-serif;
+}
+
 /* html, body, div, span,
 h1, p, ul, li {
   padding: 0;
   border: 0;
   font: inherit;
   vertical-align: baseline;
-}
-
-body {
-  background: #f1f1f1;
-  font-size: 16px;
-  line-height: 22px;
-  color: #404040;
-  font-family: 'Lucida Grande', Verdana, sans-serif;
 }
 
 ol, ul {

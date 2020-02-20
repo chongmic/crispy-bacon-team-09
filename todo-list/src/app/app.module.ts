@@ -16,18 +16,24 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 // import { AngularFireDatabaseModule } from '@angular/fire/database';
 // import { AngularFireFunctionsModule } from '@angular/fire/functions';
 
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { OverviewHomepageComponent } from './overview-homepage/overview-homepage.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     InputButtonUnitComponent,
     TodoItemComponent,
-    ListManagerComponent
+    ListManagerComponent,
+    OverviewHomepageComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireAuthModule,
+    AppRoutingModule,
     // AngularFireStorageModule,
     // AngularFireMessagingModule,
     // AngularFireDatabaseModule,
