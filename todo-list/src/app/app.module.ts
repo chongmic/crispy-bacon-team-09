@@ -2,10 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { InputButtonUnitComponent } from './input-button-unit/input-button-unit.component';
-import { TodoItemComponent } from './todo-item/todo-item.component';
-import { ListManagerComponent } from './list-manager/list-manager.component';
-import { TodoListService } from './services/todo-list.service';
 import { environment } from 'src/environments/environment';
 
 import { AngularFireModule } from '@angular/fire';
@@ -18,15 +14,24 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
-import { OverviewHomepageComponent } from './overview-homepage/overview-homepage.component';
+import { OverviewHomepageComponent } from './homepage/overview-homepage/overview-homepage.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatDialogModule} from '@angular/material/dialog';
+
+import { LoginDialogComponent } from './homepage/login-dialog/login-dialog.component';
+import { SignUpDialogComponent } from './homepage/sign-up-dialog/sign-up-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputButtonUnitComponent,
-    TodoItemComponent,
-    ListManagerComponent,
-    OverviewHomepageComponent
+    OverviewHomepageComponent,
+    LoginDialogComponent,
+    SignUpDialogComponent
+  ],
+  entryComponents: [
+    LoginDialogComponent,
+    SignUpDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -34,12 +39,14 @@ import { OverviewHomepageComponent } from './overview-homepage/overview-homepage
     AngularFirestoreModule,
     AngularFireAuthModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     // AngularFireStorageModule,
     // AngularFireMessagingModule,
     // AngularFireDatabaseModule,
     // AngularFireFunctionsModule
+    MatDialogModule
   ],
-  providers: [TodoListService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

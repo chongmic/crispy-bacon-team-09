@@ -1,7 +1,4 @@
-body {
-  margin: 0px;
-  font-family: 'proxima-nova', sans-serif;
-}
+
 
 /* html, body, div, span,
 h1, p, ul, li {
@@ -48,3 +45,6 @@ ol, ul {
   text-align: center;
   letter-spacing: -0.8px;
 } */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
